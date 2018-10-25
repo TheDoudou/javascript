@@ -29,7 +29,9 @@ if ($md5_scss != $md5_data) {
     </head>
     <body>
         <a href="index.html">Retour</a><hr>
-            <blockquote class="quote" id="quote" style=""></blockquote>
+        <img src="" alt="" id="image">
+        <blockquote class="quote" id="quote" style=""></blockquote>
+            
         <script src="assets/js/apiajax.js" type="text/javascript"></script>
     </body>
 </html>

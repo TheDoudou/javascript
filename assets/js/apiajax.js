@@ -11,9 +11,10 @@ xhr.onload = function()
         }
         console.log(rep.quote.length)
         console.log(rep+' '+rep.quote.length)
-        var pquote = document.createElement('p')
+        let pquote = document.createElement('p')
         pquote.setAttribute("id", "pquote")
-        var aquote = document.createElement('p')
+        let aquote = document.createElement('p')
+        let img = document.getElementById('image')
         aquote.setAttribute("id", "aquote")
         blocquote.appendChild(pquote)
         blocquote.appendChild(aquote)
@@ -21,6 +22,10 @@ xhr.onload = function()
         pquote.innerHTML = "\""+rep.quote+"\""
         aquote.style = "color: white; font-size: 20px; position:absolute; bottom:25px; left:25px;"
         aquote.innerHTML = rep.author
+        if (rep.photo.length > 0) {
+            img.src = rep.photo
+            img.alt = rep.author
+        }
     } else {
         pquote.style = 'color: red;'
         pquote.innerText = 'Erreur lors de la requete code : '+this.status

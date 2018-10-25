@@ -1,7 +1,11 @@
 <?php
-if(!empty($_GET['name']) && $_GET['score'] <= 110) {
-    $name = $_GET['name'];
-    $score = $_GET['score'];
+if(!empty($_POST['name']) && $_POST['score'] <= 110) {
+    $name = $_POST['name'];
+    $score = $_POST['score'];
+    $l = strlen($name);
+    if ($l > 15)
+        $name = substr($name, 0, -($l-14));
+        
     $file = file_get_contents('../../data/pioupiou_db.json');
     $json_decode = json_decode($file, true);
     for ($i = 0; $i < count($json_decode); $i++) {
@@ -17,7 +21,5 @@ if(!empty($_GET['name']) && $_GET['score'] <= 110) {
     $file = fopen('../../data/pioupiou_db.json', 'w');
     fwrite($file, $json_encode);
     fclose($file);
-
-    print_r($json_encode);
 }
 ?>
