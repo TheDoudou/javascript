@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+.quote {
+  background-image: url('../img/apiajax-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: 576px 324px;
+  height: 324px;
+  width: 576px;
+  position: relative;
+  font-family: 'Arvo'; }

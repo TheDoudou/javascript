@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Série 4</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/serie4_ex3_style.css"/>
+        <!--<script src="assets/js/4eme.js"></script> il se trouve en fin de fichier -->
+    </head>
+    <body>
+        <a href="/be_code/javascript/">Retour</a><hr>
+        <p>Exercice 1</p>
+        <img src="assets/img/image1.jpg" id="ex1_image1" onmouseover="ex1_inOut(0, this)" onmouseout="ex1_inOut(1, this)" alt=""/>
+        <hr>
+        <p>Exercice 2</p>
+        <a href="#" onclick="ex2(1)">Afficher</a>
+        <a href="#" onclick="ex2(0)">Masquer</a>
+        <div id="ex2_texte" style="">
+            <p>Joseph Dacre Carlyle (Carlisle, 4 juin 1758 - Newcastle upon Tyne, 12 avril 1804) est un orientaliste anglais.Après ses études à l'université de Cambridge, il y devint professeur d'arabe. En 1799, il fut attaché par le gouvernement britannique à l'ambassade de Lord Elgin dans l'Empire ottoman. Il était chargé d'explorer les bibliothèques de la région (principalement celle du Sérail) pour y découvrir (et y acquérir) des manuscrits inédits de textes antiques. Il se rendit aussi en Égypte, en Terre sainte et au mont Athos. Sa mission fut, de son point de vue, un échec. Il acheta quelques centaines d'ouvrages, principalement dans les bazars de Constantinople, mais aucun ne contenait de texte inédit. Cependant, la façon dont certains manuscrits avaient été acquis, principalement ceux du patriarche de Jérusalem Anthème Ier, ainsi que la querelle entamée sur la plaine de Troie entre Carlyle et un autre professeur de Cambridge, Edward Daniel Clarke, allaient être utilisées, après la mort de Carlyle, contre Lord Elgin, dans les controverses autour de l'acquisition des « marbres d'Elgin ».De retour en Grande-Bretagne à l'automne 1801, Joseph Dacre Carlyle entama une traduction en arabe de la Bible. Sa mort en avril 1804 coupa court à ce travail.</p>
+        </div>
+        <hr>
+        <p>Exercice 3</p>
+        <div id="ex3_texte" style="">
+            <p>Tara, originellement nommée Antarctica puis Seamaster, est une goélette française destinée à la fois à l'exploration et à la défense de l'environnement. Dans le cadre de l'Année polaire internationale, en 2007-2008, ce voilier est utilisé en Arctique par l'expédition Tara Arctic dans le but de faire des relevés permettant de mieux comprendre les changements climatiques qui s'opèrent en Arctique. En 2009, dans le cadre de l'expédition Tara Oceans, Tara parcourt les mers et les océans dans une circumnavigation de trois ans afin d'étudier le piégeage des molécules de gaz carbonique (CO2) par les micro-organismes marins comme le plancton. En avril 2016, une nouvelle expédition est montée Tara Pacific dont l'objectif est de comprendre le corail, menacé par des facteurs humains et climatiques1.</p>
+        </div>
+        <div >
+            <div class="color green" onclick="ex3('green')"></div>
+            <div class="color red" onclick="ex3('red')"></div>
+            <div class="color blue" onclick="ex3('blue')"></div>
+        </div>
+        <br><br><hr>
+        <p>Exercice 4</p>
+        <!--<form>-->
+            <label for="motdepasse">Votre mot de passe : </label><input type="text" name="motdepasse" value="" id="ex4_motdepasse" style=""/>
+            <label for="confirmation">Confirmez : </label><input type="text" name="confirmation" value="" id="ex4_confirmation" style=""/>
+            <button type="button" name="button" onclick="ex4()">Vérification</button>
+        <!--</form>-->
+
+        <script src="assets/js/4eme.js"></script>
+    </body>
+</html>

@@ -1,0 +1,431 @@
+body {
+  font-family: sans-serif; }
+
+.row {
+  margin: 0;
+  padding-bottom: 4px; }
+
+.scene {
+  width: 170px;
+  height: 210px;
+  margin: 0 0;
+  perspective: 600px; }
+
+.card0 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card0.is-flipped {
+  transform: rotateY(180deg); }
+
+.card1 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card1.is-flipped {
+  transform: rotateY(180deg); }
+
+.card2 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card2.is-flipped {
+  transform: rotateY(180deg); }
+
+.card3 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card3.is-flipped {
+  transform: rotateY(180deg); }
+
+.card4 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card4.is-flipped {
+  transform: rotateY(180deg); }
+
+.card5 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card5.is-flipped {
+  transform: rotateY(180deg); }
+
+.card6 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card6.is-flipped {
+  transform: rotateY(180deg); }
+
+.card7 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card7.is-flipped {
+  transform: rotateY(180deg); }
+
+.card8 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card8.is-flipped {
+  transform: rotateY(180deg); }
+
+.card9 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card9.is-flipped {
+  transform: rotateY(180deg); }
+
+.card10 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card10.is-flipped {
+  transform: rotateY(180deg); }
+
+.card11 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card11.is-flipped {
+  transform: rotateY(180deg); }
+
+.card12 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card12.is-flipped {
+  transform: rotateY(180deg); }
+
+.card13 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card13.is-flipped {
+  transform: rotateY(180deg); }
+
+.card14 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card14.is-flipped {
+  transform: rotateY(180deg); }
+
+.card15 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card15.is-flipped {
+  transform: rotateY(180deg); }
+
+.card16 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card16.is-flipped {
+  transform: rotateY(180deg); }
+
+.card17 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card17.is-flipped {
+  transform: rotateY(180deg); }
+
+.card18 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card18.is-flipped {
+  transform: rotateY(180deg); }
+
+.card19 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card19.is-flipped {
+  transform: rotateY(180deg); }
+
+.card20 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card20.is-flipped {
+  transform: rotateY(180deg); }
+
+.card21 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card21.is-flipped {
+  transform: rotateY(180deg); }
+
+.card22 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card22.is-flipped {
+  transform: rotateY(180deg); }
+
+.card23 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card23.is-flipped {
+  transform: rotateY(180deg); }
+
+.card24 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card24.is-flipped {
+  transform: rotateY(180deg); }
+
+.card25 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card25.is-flipped {
+  transform: rotateY(180deg); }
+
+.card26 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card26.is-flipped {
+  transform: rotateY(180deg); }
+
+.card27 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card27.is-flipped {
+  transform: rotateY(180deg); }
+
+.card28 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card28.is-flipped {
+  transform: rotateY(180deg); }
+
+.card29 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card29.is-flipped {
+  transform: rotateY(180deg); }
+
+.card30 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card30.is-flipped {
+  transform: rotateY(180deg); }
+
+.card31 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card31.is-flipped {
+  transform: rotateY(180deg); }
+
+.card32 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card32.is-flipped {
+  transform: rotateY(180deg); }
+
+.card33 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card33.is-flipped {
+  transform: rotateY(180deg); }
+
+.card34 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card34.is-flipped {
+  transform: rotateY(180deg); }
+
+.card35 {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative; }
+
+.card35.is-flipped {
+  transform: rotateY(180deg); }
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 200px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  backface-visibility: hidden; }
+
+.card__face--front {
+  background: red; }
+
+.card__face--back {
+  background: blue;
+  transform: rotateY(180deg); }
+
+img {
+  width: 140px;
+  height: 200px;
+  padding-bottom: 0; }

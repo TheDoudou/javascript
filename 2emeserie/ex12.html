@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Exercice 12</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="/be_code/javascript/assets/js/2eme/ex12.js"></script>
+    </head>
+    <body>
+        <a href="ex11.html">Précedent</a> - <a href="/be_code/javascript/2emeserie/">Retour</a> - <a href="ex13.html">Suivant</a><hr>
+        <button id="calcul" name="calcul" onclick="conversionTemperature();">Start</button>
+        <ul>
+            <li>0 - Fin du programme</li>
+            <li>1 - De Celsius vers Fahrenheit</li>
+            <li>2 - De Celsius vers Kelvin</li>
+            <li>3 - De Fahrenheit vers Celsius</li>
+            <li>4 - De Fahrenheit vers Kelvin</li>
+            <li>5 - De Kelvin vers Celsius</li>
+            <li>6 - De Kelvin vers Fahrenheit</li>
+        </ul>
+        <hr><p>Exo 12' (car bon les alertes ;) )</p>
+            <label for="celsius">Celsius : </label><input type="number" id="1" name="celsius" oninput="calcul2(this.value, this.id)" onchange="calcul2(this.value, this.id)"/><br/>
+            <label for="fahrenheit">Fahrenheit : </label><input type="number" id="2" name="fahrenheit" oninput="calcul2(this.value, this.id)" onchange="calcul2(this.value, this.id)"/><br/>
+            <label for="kelvin">Kelvin : </label><input type="number" id="3" name="kelvin" oninput="calcul2(this.value, this.id)" onchange="calcul2(this.value, this.id)"/><br/>
+    </body>
+</html>
