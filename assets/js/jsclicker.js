@@ -1,13 +1,14 @@
-var score = 0
-var clic_multiplicateur = 1
-var tm = 50
-var autoClic_loop
-var boostLoop
-var autoToggle = true
-var boostToggle = true
+let score = 0
+let clic_multiplicateur = 1
+let tm = 50
+let autoClic_loop
+let boostLoop
+let autoToggle = true
+let boostToggle = true
 
 let clic = function() {
     score = score + (1*clic_multiplicateur)
+    loop_calc()
 }
 
 let multiplicateur = function() {
@@ -16,14 +17,17 @@ let multiplicateur = function() {
         clic_multiplicateur = clic_multiplicateur + 1
         tm = tm + tm
     }
+    loop_calc()
 }
 
 let autoClic = () => {
     if (autoToggle) {
         autoClic_loop = setInterval('autoClic()', 1000)
+        score = score - 500
         autoToggle = false
     } else
         score = score + 1
+    loop_calc()
 }
 
 let booster = () => {
@@ -37,6 +41,7 @@ let booster = () => {
         clic_multiplicateur = clic_multiplicateur/2
         clearInterval(boostLoop)
     }
+    loop_calc()
 }
 
 let loop_calc = () => {
@@ -60,5 +65,3 @@ let loop_calc = () => {
     else
         document.getElementById("booster").disabled = true
 }
-
-let inter_loop = setInterval('loop_calc()', 16)

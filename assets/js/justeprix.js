@@ -1,14 +1,12 @@
 const minimum = 20
 const maximum = 80
+let random
 
-var randomNumber = function(min, max) {
+let randomNumber = function(min, max) {
     return Math.floor(Math.random()*(max-min+1))+min
 }
 
-var random = randomNumber(minimum, maximum)
-console.log(random)
-
-var trouve = function(input) {
+let trouve = function(input) {
     if (input < random)
         return 1
     else if (input > random)
@@ -17,9 +15,10 @@ var trouve = function(input) {
         return 3
 }
 
-var startGame = function() {
+let startGame = function() {
     let state = true
     let count = 0
+    random = randomNumber(minimum, maximum)
     while(state) {
         let input = parseInt(prompt("Tapez un chiffre de 20 à 80 :"))
         count++

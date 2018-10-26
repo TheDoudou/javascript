@@ -51,15 +51,9 @@ function keysPressed(e) {
         fire[0] = true 
         fire[1] = true 
         fire[2] = canonDeltaX
-        /*if (coups == 1)
-            coups = 1
-        else
-            coups--
-        document.getElementById("lcout").innerText = coups*/
     }
 
     e.preventDefault()
-    //draw()
 }
 
 function keysRelassed(e) {

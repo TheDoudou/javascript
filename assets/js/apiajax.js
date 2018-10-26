@@ -33,3 +33,10 @@ xhr.onload = function()
 }
 
 xhr.send()
+
+
+$.getJSON( "https://thatsthespir.it/api", function( data ) {
+    $.each( data, function( key, val ) {
+      console.log(key+" "+val)
+    })
+  })

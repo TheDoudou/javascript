@@ -32,6 +32,7 @@ if ($md5_scss != $md5_data) {
         <img src="" alt="" id="image">
         <blockquote class="quote" id="quote" style=""></blockquote>
             
+        <script src="assets/js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="assets/js/apiajax.js" type="text/javascript"></script>
     </body>
 </html>

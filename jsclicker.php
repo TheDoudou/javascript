@@ -31,7 +31,7 @@ if ($md5_scss != $md5_data) {
     <body>
         <a href="index.html">Retour</a><hr>
         <div class="boxClic">
-            <input type="submit" name="clic" id="clic" value="Clic" onclick="clic()" class="btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="multi" id="multi" value="Mutiplicateur X2" onclick="multiplicateur()" class="btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="autoclic" id="autoclic" value="Auto Clic 1 (500pts)" onclick="autoClic()" class="btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="booster" id="booster" value="Booster Clic (5000pts 30sec)" onclick="booster()" class="btn">
+            <input type="submit" name="clic" id="clic" value="Clic" onclick="clic()" class="btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="multi" id="multi" value="Mutiplicateur X2 (50pts)" onclick="multiplicateur()" class="btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="autoclic" id="autoclic" value="Auto Clic 1 (500pts)" onclick="autoClic()" class="btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="booster" id="booster" value="Booster Clic (5000pts 30sec)" onclick="booster()" class="btn">
             <br><div id="affichage" class="affichage">Score : 0</div>
         </div>
         <script src="assets/js/jsclicker.js" type="text/javascript"></script>
